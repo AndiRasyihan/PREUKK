@@ -30,8 +30,8 @@
     <h1 class="text-center mt-5 fw-bold">Table Data</h1>
     @if ($message = Session::get('success'))
     <div class="alert alert-info" role="alert">
-  {{$message}}
-</div>
+    {{$message}}
+    </div>
     @endif
 
 <table class="table table-striped">
